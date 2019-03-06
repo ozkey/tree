@@ -1,0 +1,32 @@
+
+{
+  "name": "tree",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ozkey/tree.git",
+  "author": "ozkey@ozkey.com",
+  "license": "MIT",
+  "dependencies": {
+    "parcel-bundler": "^1.11.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.4",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.4.0",
+
+    "@babel/core": "^7.3.0",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/preset-env": "^7.3.0",
+    "@babel/preset-react": "^7.0.0"
+  },
+
+  "scripts": {
+    "dev": "parcel index.html",
+    "============================= OTHER TOOLS  =============================": "",
+    "killWin": "Taskkill /IM node.exe /F",
+    "============================= END  =============================": ""
+  }
+}
