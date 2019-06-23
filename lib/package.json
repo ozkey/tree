@@ -27,7 +27,8 @@
     "clean:mac": "rm -rf dist",
     "clean:win": "rmdir dist /s /q",
     "build:babel": "babel --plugins @babel/transform-react-jsx -d dist src",
-    "build:pkg": "copy package.json \"dist/package.json\" && copy README.md \"dist/\"",
+    "build:pkg:mac": "cp package.json \"dist/package.json\" && cp README.md \"dist/\"",
+    "build:pkg:win": "copy package.json \"dist/package.json\" && copy README.md \"dist/\"",
     "============================= OTHER TOOLS  =============================": "",
     "killWin": "Taskkill /IM node.exe /F",
     "============================= END  =============================": ""
